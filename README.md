@@ -3,7 +3,7 @@
 **cosmos-trustless-swap** is a module for swapping and selling tokens between two users.  
 It is implemented as [Cosmos module](https://github.com/cosmos/cosmos-sdk).
 
-![CI](https://github.com/yoshidan/cosmos-trustless-swap/workflows/CI/badge.svg?branch=main)
+![CI](https://github.com/devnova777/cosmos-trustless-swap/workflows/CI/badge.svg?branch=main)
 
 ## Features
 
@@ -243,7 +243,7 @@ $ simd tx swap cancel-nft [id] --from keyname
 ## Installation
 
 ```
-go get -u github.com/yoshidan/cosmos-trustless-swap
+go get -u github.com/devnova777/cosmos-trustless-swap
 ```
 
 Modify `app/app.go` included in the blockchain boilerplate output by [Ignite CLI](https://ignite.com/cli) as follows.  
